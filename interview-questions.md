@@ -50,7 +50,7 @@ Then, research the question to expand on your answer. Even if you feel you have 
 
   Your answer: I have no idea, perhaps it has something to do with pulling stuff in; literally hoisting. 
 
-  Researched answer: Hoisting in JS is a behavior that moves all declarations to the top of the current scope, enabling a variable to be used before it's declared. However JS will not hoist initializations of variables only the declaration so an incomplete understanding of hoisting can and will cause bugs, this is why it's the best practice to declare your variables at the top of the scope in the first place. 
+  Researched answer: Hoisting in JS is a behavior that moves all declarations to the top of the current scope, enabling a variable to be used before it's declared. This is because in JS variable and function declarations are processed before any code is executed. However JS will not hoist initializations of variables only the declaration so an incomplete understanding of hoisting can and will cause bugs, this is why it's the best practice to declare your variables at the top of the scope in the first place. 
 
 
 
